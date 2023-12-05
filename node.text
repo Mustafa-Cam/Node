@@ -36,3 +36,6 @@ Bu, aynı anda birden fazla görevin eşzamanlı olarak yürütülmesine olanak 
 
 module kavramı da bir dosyada yapılan işlemi başka dosyalarda da kullnamk için kullnadığımız bir yapıdır.
 node modules klasörü silinse bile dependencies de olan paketlerimizi npm install ile tekrar yükleyebiliriz. nice. 
+
+req.url de bizim req yaptığımız url i belirtir. 
+http ile de biz kendi sunucumuzu kurabiliriz. express var bu express'i kullan bana güven :D şaka bir yana express baya iyi bir framework. koa.js de var server için. 
