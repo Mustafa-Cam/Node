@@ -8,7 +8,7 @@ let circumference = r*2*Math.PI;
 console.log(circumference);
 }
 
-export  {
+module.exports ={
     circlearea,
     circleCircumference
 }
