@@ -39,3 +39,4 @@ node modules klasörü silinse bile dependencies de olan paketlerimizi npm insta
 
 req.url de bizim req yaptığımız url i belirtir. 
 http ile de biz kendi sunucumuzu kurabiliriz. express var bu express'i kullan bana güven :D şaka bir yana express baya iyi bir framework. koa.js de var server için. 
+gitignore web sayfasına git oraya node yaz orda hazır gitignore içeriğimiz hazır. 
