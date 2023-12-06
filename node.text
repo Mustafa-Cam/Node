@@ -40,3 +40,6 @@ node modules klasörü silinse bile dependencies de olan paketlerimizi npm insta
 req.url de bizim req yaptığımız url i belirtir. 
 http ile de biz kendi sunucumuzu kurabiliriz. express var bu express'i kullan bana güven :D şaka bir yana express baya iyi bir framework. koa.js de var server için. 
 gitignore web sayfasına git oraya node yaz orda hazır gitignore içeriğimiz hazır. 
+
+burası önemli dostum middleware var tmm mı bu mw lar bizim req,res döngüsü arasındaki fonksiyonlarımız burda next parametresi var bu next parametresi diğer mw a geç demek istiyor şimdi bak ablatıyorum anlayacaksın =>
+[req   mw  mw  mw mw  res]  bak gördün değil mi 4 tane middleware var şimdi sen bir diğer middleware e geçmezsen ne olur res'a ulaşamayız değil mi o yüzden next parametresi var bak şimdi anladın next in ne işe yaradığını.   
