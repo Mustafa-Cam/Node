@@ -43,3 +43,7 @@ gitignore web sayfasına git oraya node yaz orda hazır gitignore içeriğimiz h
 
 burası önemli dostum middleware var tmm mı bu mw lar bizim req,res döngüsü arasındaki fonksiyonlarımız burda next parametresi var bu next parametresi diğer mw a geç demek istiyor şimdi bak ablatıyorum anlayacaksın =>
 [req   mw  mw  mw mw  res]  bak gördün değil mi 4 tane middleware var şimdi sen bir diğer middleware e geçmezsen ne olur res'a ulaşamayız değil mi o yüzden next parametresi var bak şimdi anladın next in ne işe yaradığını.   
+
+express.static ile de static dosyaları express de kullanabiliyoruz static dosya dediği css html gibi iskelet öğeler. ejs de bizim tamplate engine dir bu ne demek istersen html içinde js işlemleri yada başka bir dosyadan değişken kullanmak istersek diye bir şey aklımıza geliyor değil mi işte bu işe yarıyor ejs burdan anlamazsın pratik yap.
+
+ortak kodları da partial klasöründe kullanırız. include ile partials ekleriz. mingo diye bir gui var araştırabilirsiniz.Bu arada dökümantasyon önemlidir dökümantasyon okuyalım.
